@@ -1,0 +1,5 @@
+429 el active x no puede crear el objeto
+
+en escuela error 339 el botón transparentButton no está registrado
+
+se cuelga en elegiractivi, librou hoja anterior

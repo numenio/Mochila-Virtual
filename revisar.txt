@@ -1,0 +1,17 @@
+
+
+ver que reemplacé todos los 
+	Mid(File1.List(j), cantPrefijo + 4, 4)
+por 
+	Left(Right(File1.List(j), 8), 4)
+(no sé si me la eché, ver funcionamiento de los años. el código toma 
+el año del nombre del archivo)
+
+
+
+
+palabras en el corrector ortográfico
+
+
+
+

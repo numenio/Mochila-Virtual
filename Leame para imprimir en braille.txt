@@ -1,0 +1,319 @@
+IMPRESIÓN CON IMPRESORAS BRAILLE
+
+1. INTRODUCCIÓN
+Los drivers proporcionados en esta instalación 
+permiten que una impresora Braille pueda ser 
+utilizada desde una aplicación Windows para 
+imprimir texto. Sin embargo, dado que la mayoría 
+de las aplicaciones se orientan a impresoras 
+gráficas, se puede dar el caso de que el texto 
+impreso no se adapte al formato (longitud de 
+líneas, páginas, espacios y líneas en blanco) 
+visualizado en pantalla (aunque no se perderán 
+líneas de texto).
+Sólo se podrá asegurar que el texto se imprimirá 
+sin perder el formato cuando se utilice la fuente 
+Braille con el tamaño de papel definido en el 
+driver y sin ningún tipo de característica 
+(negrita, cursiva, subrayado, ...) ni de formateo 
+de párrafo (interlineado distinto de sencillo en 
+Word, ...). El proceso para imprimir con esta 
+fuente para las aplicaciones más comunes (Bloc 
+de notas, Word Pad y Word) se describe en el 
+punto 4 de este documento.
+
+2. REQUISITOS DE FUNCIONAMIENTO
+
+2.1 WORD
+Antes de utilizar Word por primera vez, sustituir, 
+en el directorio en el que se encuentren instalados, 
+los archivos Winword.exe y wwintl32.dll por los 
+que se proporcionan con la instalación de este 
+driver ya que solucionan errores de protección 
+general de Word con las impresoras en modo 
+texto.
+
+3. CONFIGURACIÓN GENERAL DE UNA 
+IMPRESORA BRAILLE EN WINDOWS NT
+La configuración general de una impresora son los 
+valores configurables de la misma que cogerán 
+las aplicaciones que permiten imprimir cuando 
+sean abiertas.
+Para mostrar el diálogo que permite cambiar la 
+configuración de una impresora a nivel general, 
+pulsar el menú Inicio de Windows, seleccionar 
+Configuración y a continuación Impresoras.
+Si se desea utilizar por defecto una impresora 
+desde las distintas aplicaciones, seleccionar esa 
+impresora de la lista y a continuación seleccionar 
+el comando Configurar como predeterminada 
+del menú Archivo.
+Si se desean cambiar características por defecto 
+que va a tener una impresora cuando se utiliza 
+desde cualquier aplicación seleccionar esa 
+impresora de la lista y a continuación seleccionar 
+el comando Propiedades del menú Archivo y 
+elegir la pestaña Configuración de dispositivo. 
+Pulsar Aceptar para guardar los cambios.
+Los cambios realizados en este diálogo se 
+reflejarán en las aplicaciones la siguiente vez 
+que sean abiertas.
+Dentro de las aplicaciones existe la posibilidad 
+de cambiar la configuración de la impresora 
+siendo ésta sólo válida dentro de la aplicación 
+y hasta que ésta se cierre, al volver a abrirla la 
+configuración de la impresora serán los valores 
+de la configuración general.
+Si el usuario no tiene permisos de administración 
+no podrá cambiar ninguna característica de la 
+configuración general de la impresora pero si 
+tendrá la posibilidad de cambiar la configuración 
+dentro de las aplicaciones. 
+3.1 Restricciones generales
+Existe un conjunto de caracteres que las aplicaciones 
+Windows no son capaces de imprimir en impresoras 
+que no soportan fuentes de tipo True Type. A 
+continuación se recogen estos caracteres en una 
+tabla donde se muestra el código decimal del 
+carácter y su representación los códigos ANSI y 
+ASCII.
+
+Decimal	ANSI	ASCII
+130	‚	é
+131	ƒ	â
+132	„	ä
+133	…	à
+134	†	å
+135	‡	ç
+136	ˆ	ê
+137	‰	ë
+138	Š	è
+139	‹	ï
+140	Œ	î
+147	“	ô
+148	”	ö
+149	•	ò
+150	–	û
+151	—	ù
+152	˜	ÿ
+153	™	Ö
+154	š	Ü
+155	›	ø
+156	œ	£
+159	Ÿ	ƒ
+
+4. IMPRESIÓN CON LA FUENTE SOPORTADA POR LA 
+IMPRESORA
+
+4.1 BLOC DE NOTAS
+1. Seleccionar el comando Preparar página 
+del menú Archivo.
+2. Poner los márgenes a cero y eliminar el 
+encabezado y pie de página para que el 
+número de filas y columnas impresas sean 
+las indicadas en el tamaño de papel que 
+más tarde se elija.
+3. Pulsar el botón Impresora y elegir la 
+impresora deseada de la lista de impresoras.
+4. Pulsar el botón Propiedades y seleccionar 
+las características de la impresión Braille 
+(este paso no será necesario si no se desea 
+cambiar las características definidas en la 
+configuración general). El tamaño de papel 
+elegido en este diálogo será refrescado al 
+volver al diálogo Preparar página. Pulsar 
+Aceptar para actualizar los cambios en todos 
+los diálogos.
+5. Para imprimir, seleccionar el comando 
+Imprimir del menú Archivo.
+
+4.2 WORDPAD
+1. Seleccionar el comando Configurar página 
+del menú Archivo.
+2. Poner los márgenes a cero para que el 
+número de filas y columnas impresas sean 
+las indicadas en el tamaño de papel que 
+más tarde se elija.
+3. Pulsar el botón Impresora y elegir la 
+impresora deseada de la lista de impresoras.
+4. Pulsar el botón Propiedades y seleccionar 
+las características de la impresión Braille. 
+El tamaño de papel elegido en este diálogo 
+será refrescado al volver al diálogo Configurar 
+página. Pulsar Aceptar para actualizar los 
+cambios en todos los diálogos. Si se desea 
+utilizar la impresora predeterminada con las 
+características definidas por defecto, es 
+necesario al menos abrir y aceptar el diálogo 
+Configurar página para que la aplicación 
+reconozca la fuente Braille.
+5. En la Barra de formato, seleccionar la 
+fuente Braille 4cpi de la lista de fuentes y 
+el tamaño de la nueva fuente (su valor depende 
+de la impresora y del tipo de Braille e 
+interlineado que se elija) de la lista de 
+tamaños. Si se desea imprimir un texto ya 
+creado se ha de seleccionar todo el texto y 
+aplicarle esta nueva fuente. Si se acaba de 
+crear un documento en blanco esta nueva fuente 
+será la utilizada en el texto que va a ser 
+escrito una vez que se ha seleccionado ésta. 
+Este proceso debe repetirse siempre que se 
+realice algún cambio en la configuración de 
+la página.
+6. Para imprimir, seleccionar el comando 
+Imprimir del menú Archivo.
+
+4.3 WORD 97, WORD 2000
+1. Seleccionar el comando Imprimir del menú 
+Archivo.
+2. Seleccionar la impresora deseada de la 
+lista de impresoras. Cerrar el diálogo Imprimir 
+mediante el botón Cerrar (el botón Aceptar lanza 
+la impresión).
+3. En la Barra de formato, seleccionar la fuente 
+Braille 4cpi de la lista de fuentes y el tamaño 
+de la fuente (su valor depende de la impresora 
+y del tipo de Braille e interlineado que se 
+elija) de la lista de tamaños. Si se acaba de 
+crear un documento en blanco esta nueva fuente 
+será la utilizada en el texto que va a ser 
+escrito. Si se desea imprimir un texto ya 
+creado se ha de seleccionar todo el texto y 
+aplicarle esta nueva fuente y tamaño. Si 
+tras seleccionar la fuente ésta no permanece en la 
+lista desplegable de la Barra de formato hacer 
+un cambio de fuente y tamaño por cada estilo 
+que haya en el documento.
+4. Abrir el diálogo Imprimir y pulsar el botón 
+Propiedades de la impresora y seleccionar las 
+características de la impresión Braille. Un vez 
+terminada la configuración de la impresora cerrar 
+el diálogo de las propiedades de la impresora y 
+cerrar el diálogo Imprimir mediante el botón 
+Cerrar (el botón Aceptar lanza la impresión).
+5. Al volver seleccionar el texto si lo hubiese 
+y elegir únicamente el nuevo tamaño de fuente.
+6. El tamaño de papel elegido en este diálogo 
+propiedades de la impresora NO será refrescado 
+en el diálogo Configurar página por lo que debe 
+hacerlo el usuario, en el caso de no hacerlo la 
+impresión no será correcta. Seleccionar el comando 
+Configurar página del menú Archivo. En la pestaña 
+Márgenes poner los márgenes a 0 para que el número 
+de filas y columnas impresas sean las indicadas en 
+el tamaño de papel que más tarde se elija. En la 
+pestaña Tamaño del papel seleccionar el tamaño, que 
+debe coincidir con el seleccionado en el diálogo de 
+propiedades. Si se selecciona "Tamaño personal" se 
+debe introducir los valores del ancho y el alto que 
+coinciden con los valores correspondientes de la 
+superficie imprimible de las propiedades de la 
+impresora, en este caso puede que los márgenes con 
+valor 0 estén fuera del área de impresión por lo que 
+hay que pulsar el botón "Arreglar" para que Word 
+vuelva a calcular los márgenes.
+7. Para imprimir, seleccionar el comando Imprimir del 
+menú Archivo y pulsar "Aceptar"
+
+5. RESTRICCIONES Y PROBLEMAS ENCONTRADOS
+
+5.1 BLOC DE NOTAS
+1. El diálogo Preparar página que surge cuando se 
+selecciona el comando Preparar página del menú Archivo 
+contiene un grupo Orientación que permite seleccionar 
+la orientación del papel en la impresora. El usuario 
+nunca debe seleccionar la opción Horizontal, aunque no 
+aparezca deshabilitada, ya que las impresoras Braille 
+sólo permiten impresión vertical.
+2. En el diálogo Preparar página se indica el tamaño 
+de papel que tiene seleccionado la impresora pero no se 
+debe cambiar aquí directamente sino en las propiedades 
+de la impresora tal y como se ha indicado en el punto 
+Impresión de texto desde el Bloc de notas ya que de 
+cambiarse aquí no se actualizarían adecuadamente los 
+valores de la superficie imprimible.
+
+5.2 WORDPAD
+1. El diálogo Configurar página que surge cuando se 
+selecciona el comando Configurar página del menú 
+Archivo contiene un grupo Orientación que permite 
+seleccionar la orientación del papel en la impresora. 
+El usuario nunca debe seleccionar la opción 
+Horizontal, aunque no aparezca deshabilitada, ya que 
+las impresoras Braille sólo permiten impresión 
+vertical.
+2. En el diálogo Configurar página se indica el 
+tamaño de papel que tiene seleccionado la impresora 
+pero no se debe cambiar aquí directamente sino en 
+las propiedades de la impresora tal y como se ha 
+indicado en el punto Impresión de texto desde 
+WordPad ya que de cambiarse aquí no se actualizarían 
+adecuadamente los valores de la superficie 
+imprimible.
+3. El diálogo Imprimir presenta un botón Propiedades 
+que permite cambiar las características de la 
+impresión. Este diálogo NO debe utilizarse ya que 
+los cambios realizados no se actualizan en la 
+aplicación por lo que la impresión puede resultar 
+incorrecta.
+4. El comando Vista preliminar del menú Archivo no 
+muestra lo que realmente se va a imprimir en papel 
+(normalmente muestra menos líneas de las que 
+realmente caben)
+5. El nombre y tamaño de la fuente Braille sólo 
+puede seleccionarse mediante las listas de la Barra 
+de formato. Si se intenta hacer a través del comando 
+Fuente del menú Formato las que aparecen son las 
+fuentes de Windows.
+6. Al tener seleccionada una impresora Braille en 
+la Barra de Formato no sólo aparece el tipo de letra 
+Braille 4cpi sino también el tipo de letra Modern, 
+nunca seleccionar este tipo de letra.
+
+5.3 WORD 97
+1. La pestaña Tamaño del papel del diálogo 
+Configurar página que surge cuando se selecciona 
+el comando Configurar página del menú Archivo 
+contiene un grupo Orientación que permite seleccionar 
+la orientación del papel en la impresora. El usuario 
+nunca debe seleccionar la opción Horizontal ya que 
+las impresoras Braille sólo permiten impresión 
+vertical.
+2. En el caso de la impresión en un papel con "Tamaño 
+personal" no se puede imprimir más de una copia si el 
+documento tiene una única hoja y en el caso de más de 
+una hoja para que la impresión de varias copias sea 
+correcta es necesario que esté verificada la opción 
+de "intercalar".
+3. Si se quiere cambiar una/s característica/s de la 
+impresora excepto el tamaño de papel, repetir los 
+pasos 4 y 5 del punto Impresión de texto desde Word
+4. Cada vez que se cambie el papel en las propiedades 
+de la impresora cambiarlo también en la pestaña 
+Tamaño del papel del diálogo Configurar página.
+5. Antes de abrir un documento que ha sido escrito 
+con una impresora Braille asegurarse de que Word 
+tiene como impresora predeterminada para imprimir 
+también una impresora Braille aunque no sea la misma.
+6. Si un texto contiene pie de página y se encuentra 
+situado fuera de la superficie imprimible del papel 
+(cuando se selecciona una fuente que provoca que el 
+número de líneas que caben en el papel sea mayor que 
+el máximo permitido por la impresora, por lo que hay 
+que introducir un margen inferior) lo imprimirá en la 
+página siguiente. 
+7. Si una página tiene en una línea de texto un 
+superíndice, todas las líneas de la página que estén 
+a continuación van a estar separadas por varias líneas 
+en blanco.
+
+5.4 WORD 2000
+Además de las restricciones y problemas de Word 97 
+se producen los siguientes:
+1. La aplicación introduce un carácter en blanco al 
+final de cada página, que en modo transparente (en 
+las impresoras con dicha característica) se verá como 
+el conjunto de puntos correspondiente.
+	
+

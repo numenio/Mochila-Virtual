@@ -1,0 +1,216 @@
+accesorios:
+cambiar de opción: flecha arriba o abajo
+aceptar una opción: enter
+
+
+actAntFut:
+cambiar de meses: flechas arriba o abajo
+ver actividades del mes seleccionado: enter
+
+
+activiades:
+cambiar de opción: flecha arriba o abajo
+aceptar una opción: enter
+
+
+actividades hoy:
+elegir una actividad: flecha arriba o abajo
+abrir la actividad elegida: enter
+
+
+
+añadir recordatorio:
+moverse por las opciones: tab o enter
+añadir recordatorio: enter en el botón "Añadir recordatorio"
+
+
+añoActividades:
+moverse por los años con actividades: flecha arriba o abajo
+mostrar las actividades del año seleccionado: enter
+
+
+
+añoEvaluaciones:
+moverse por los años con evaluaciones: flecha arriba o abajo
+mostrar las evaluaciones del año seleccionado: enter
+
+añoTareas:
+moverse por los años con hojas guardadas: flecha arriba o abajo
+mostrar las hojas guardadas del año seleccionado: enter
+
+
+
+calculadora:
+borrar todo el cálculo: suprimir
+borrar un sólo número: tecla de borrar
+leer el número en pantalla: F1
+leer el número en pantalla por cifras: F2
+
+
+calendarioMúltiple:
+moverse por los elementos: flechas arriba y abajo
+abrir un elemento: enter
+mostrar todos los días del mes: espacio
+ocultar los días vacíos: espacio
+volver a ver los días del mes: borrar
+
+
+
+controlActyLibros:
+moverse por las opciones: tab o enter
+cambiar una opción: flecha arriba o abajo
+
+
+cuaderno:
+
+
+
+
+
+
+
+
+
+cuadernoComunicaciones:
+moverse por las opciones: tab
+pasar rápidamente de escribir a leer las comunicaciones: F1
+
+
+desde cuaderno:
+moverse por las opciones: flechas arriba y abajo
+abrir la opción seleccionada: enter
+
+
+
+diálogo abrir:
+moverse por los archivos y carpetas: flechas arriba y abajo
+abrir un elemento: enter
+volver la carpeta anterior: borrar
+ir rápido a los discos: suprimir
+ir rápido a las carpetas: c
+ir rápido a los archivos: a
+
+
+evaluaciones:
+moverse por las opciones: flechas arriba y abajo
+abrir la opción seleccionada: enter
+
+
+fechaVerRec:
+pasar de una opción a otra: enter o tab
+cambiar los meses o los años: flechas arriba o abajo
+
+
+imágenes:
+moverse por las imágenes: flechas arriba o abajo
+insertar una imagen en la carpeta: enter
+
+
+lector actividad:
+volver a la carpeta: F2
+imprimir: F5
+leer todo el texto: alt + flecha abajo
+leer desde el cursor hacia adelante: alt + flecha arriba
+leer por renglones: flechas arriba o abajo
+leer por palabras: control flecha derecha o izquierda
+leer por letras: flechas derecha o izquierda
+ir al principio del renglón: inicio
+ir al final del renglón: fin
+ir rápido al comienzo de la actividad: control + inicio
+ir rápido al fin de la actividad: control + fin
+leer de a párrafos: control + flechas arriba o abajo
+leer el texto seleccionado: alt + flecha derecha
+
+
+lector evaluaciones:
+volver a la carpeta: F2
+imprimir: F5
+leer todo el texto: alt + flecha abajo
+leer desde el cursor hacia adelante: alt + flecha arriba
+leer por renglones: flechas arriba o abajo
+leer por palabras: control flecha derecha o izquierda
+leer por letras: flechas derecha o izquierda
+ir al principio del renglón: inicio
+ir al final del renglón: fin
+ir rápido al comienzo de la actividad: control + inicio
+ir rápido al fin de la actividad: control + fin
+leer de a párrafos: control + flechas arriba o abajo
+leer el texto seleccionado: alt + flecha derecha
+
+
+
+lector libros:
+volver a la carpeta: F2
+imprimir: F5
+leer todo el texto: alt + flecha abajo
+leer desde el cursor hacia adelante: alt + flecha arriba
+leer por renglones: flechas arriba o abajo
+leer por palabras: control flecha derecha o izquierda
+leer por letras: flechas derecha o izquierda
+ir al principio del renglón: inicio
+ir al final del renglón: fin
+ir rápido al comienzo de la actividad: control + inicio
+ir rápido al fin de la actividad: control + fin
+leer de a párrafos: control + flechas arriba o abajo
+leer el texto seleccionado: alt + flecha derecha
+
+
+libros:
+moverse por los libros: flechas arriba o abajo
+abrir los capítulos de un libro: enter
+
+libroX:
+moverse por los capítulos: flechas arriba o abajo
+abrir un capítulo: enter
+
+
+Materias evaluaciones:
+moverse por las materias: flechas arriba o abajo
+seleccionar una materia: enter
+
+mesEvaluaciones:
+moverse por los meses: flechas arriba o abajo
+mostrar las evaluaciones del mes seleccionado: enter
+
+
+principal:
+moverse por las materias: flechas arriba o abajo
+abrir una materia: enter
+
+
+recordatorios:
+moverse por las opciones: flechas arriba o abajo
+aceptar una opción: enter
+
+
+reproductor de música:
+Enter: empieza a reproducir o detiene al reproductor.
+Espacio: pausa.
+Número 1: baja el volumen.
+Número 2: sube el volumen.
+Shift: quita totalmente el sonido al reproductor.
+F7: pasa del reproductor a las carpetas o al menú principal.
+Borrar: vuelve a la carpeta anterior en que se estaba.
+Suprimir: va rápidamente a los discos.
+
+
+
+
+
+
+tareas Anteriores:
+moverse por los meses: flechas arriba o abajo
+mostrar las hojas del mes seleccionado: enter
+
+
+teclado braille:
+punto 1: F
+punto 2: D
+punto 3: S
+punto 4: J
+punto 5: K
+punto 6: L
+bajar una línea: enter
+borrar una letra: borrar
+espacio: espacio
+

@@ -1,0 +1,124 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=I:\mochila notebook\Paquete
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\WINDOWS\speech\Xvoice.dll=
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\Speech\sapi.dll=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\Richtx32.ocx=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+c:\windows\speech\xvoice.dll=
+c:\archivos de programa\archivos comunes\microsoft shared\speech\sapi.dll=
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\archivos de programa\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+I:\mochila notebook\Mochila Notebook.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=No
+C:\WINDOWS\system32\oleaut32.dll=No
+C:\WINDOWS\system32\olepro32.dll=No
+C:\WINDOWS\system32\asycfilt.dll=No
+C:\WINDOWS\system32\stdole2.tlb=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\Richtx32.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\RCHTXES.DLL=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\TABCTES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2ES.DLL=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\Speech\sapi.dll=No
+C:\WINDOWS\speech\Xvoice.dll=No
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+I:\mochila notebook\Mochila Notebook.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\Richtx32.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+I:\mochila notebook\Mochila Notebook.exe=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=MochilaNotebook
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=I:\mochila notebook\Paquete
+ProjectFolder=I:\mochila notebook
+ServerSideCab=
+File1=I:\mochila notebook\Paquete\setup.exe
+File2=I:\mochila notebook\Paquete\Setup.Lst
+File3=I:\mochila notebook\Paquete\Mochila Notebook.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=MochilaNotebook
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|MochilaNotebook]
+Icon1="Mochila Notebook.exe"
+Title1=MochilaNotebook
+StartIn1=$(AppPath)
+Key1=Icon1
